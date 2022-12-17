@@ -1,0 +1,68 @@
+#dragonGuide{ 
+    width: 20%;
+    height: fit-content;
+    
+    transition: 2s linear;
+    position: fixed;
+    
+}
+
+.guide{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+
+}
+
+#bulle{
+    background-color: antiquewhite;
+    color: darkslategrey;
+    width: 30%;
+    height: fit-content;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 150%;
+    border-radius: 5px;
+    
+    margin-right:75%;
+    transition: 1s;
+}
+
+#bulle2{
+    background-color: antiquewhite;
+    color: darkslategrey;
+    width: 30%;
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 100%;
+    border-radius: 5px;
+    margin-right: 40%;
+    transition: 1s;
+}
+
+.vol{
+    margin-top: 10%;   
+}
+
+.nid{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+#maison{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.amis{
+    width: 20%;
+    height: fit-content;
+    transition: 2s;
+}

@@ -1,0 +1,33 @@
+@import url("css/parchemin.css");
+@import url("css/boutons.css");
+@import url("css/header.css");
+@import url("css/footer.css");
+@import url("css/titres.css");
+@import url("css/dragonGuide.css");
+@import url("css/caroussel.css");
+
+*{
+    scroll-behavior:smooth;
+}
+
+body{
+    background-image: url("css/images/fondArbre.jpg");
+    background-size: cover;
+    margin: 0%;
+}
+
+#partOne{
+    padding-top: 5%;
+    display: flex;
+    justify-content:space-around;
+}
+
+#partTwo{
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+#partThree{
+    margin-top: 50px;
+}

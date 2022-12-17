@@ -1,0 +1,19 @@
+.parchemin{
+    width: 407px;
+    height: 470px;
+    background-image: url("images/parcheminSimple.png");
+    background-size:contain;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    opacity: 0%;
+    
+}
+
+.loaded{
+    transition: 2s;
+    opacity: 100%;
+
+}
