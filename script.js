@@ -6,6 +6,7 @@ const dragon = document.getElementById("dragonGuide")
 const inversion = document.querySelector(".inversion")
 const bulle = document.getElementById("bulle")
 const bulle2 = document.getElementById("bulle2")
+const bulle3 = document.getElementById("bulle3")
 
 const nextPart = document.querySelectorAll(".toPartTwo")
 const toPT = nextPart[0]
@@ -32,13 +33,17 @@ inversion.addEventListener("click", function(){
         bulle.style.color = "antiquewhite"
         bulle.style.backgroundColor = "darkslategrey"
         bulle2.style.color = "antiquewhite"
-        bulle2.style.backgroundColor = "darkslategrey"      
+        bulle2.style.backgroundColor = "darkslategrey"
+        bulle3.style.color = "antiquewhite"
+        bulle3.style.backgroundColor = "darkslategrey"      
         sombre = true
     }else{
         bulle.style.color = "darkslategrey"
         bulle.style.backgroundColor = "antiquewhite"
         bulle2.style.color = "darkslategrey"
         bulle2.style.backgroundColor = "antiquewhite"
+        bulle3.style.color = "darkslategrey"
+        bulle3.style.backgroundColor = "antiquewhite"
         sombre = false
     }
 
@@ -186,4 +191,15 @@ bAmis.addEventListener("click", function(){
 
 
 //
+
+// Réaction Bulle
+
+
+function clickevent(){
+    if(limitte<2){
+        console.log("oui")
+        bulle3.classList.remove("transparent")
+    }
+    
+}
 
